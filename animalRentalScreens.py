@@ -16,10 +16,6 @@ from indicator import *
 #Page 5 = Accessory Page
 #Page 6 = Receipt Page
 
-
-##make all this extra stuff into a main function
-#wantedAnimal = Animal()
-
 choiceYes = Button(win, Point(450, 450), 150, 40, "Yes", "white")
 choiceNo = Button(win, Point(850, 450), 150, 40, "No", "white")
 choiceYes.changeTextColor("#B16E4B")
