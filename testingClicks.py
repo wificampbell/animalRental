@@ -24,7 +24,6 @@ def checkClicks():
         p = win.getMouse()
 
     if homeButton.buttonClicked(p):
-        print("Home button clicked")  # Debugging
         clear()
         setPage(0)
         setClickedOnAnimal(False)
